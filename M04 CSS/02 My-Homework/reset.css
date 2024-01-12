@@ -1,0 +1,40 @@
+/* Reset CSS */
+
+/* Selector Universal para aplicar estilos a todos los documentos */
+*   { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* Aplicar un estilo minimo al cuerpo del documento */
+    body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /*Establecer una fuente generica para el cuerpo*/  
+    }
+
+    /* Corregir estilos para los elementos de lista */
+    ul, ol {
+    list-style: none; /* eliminar los estilos de viñetas/numeros de lista */
+    }
+
+    /* Establecer estilos basicos para los elementos de texto */
+    h1, h2, h3, h4, h5, h6, p {
+    margin: 0; 
+    padding: 0; 
+   } 
+
+   /* Establecer estilos basicos para los enlaces */
+   a {
+    text-decoration: none; /* hacer que las imagenes sean responsivas dentro de su contenedor */
+    color: inherit; /* heredar el color del texto del elemento padre */
+   } 
+
+   /* Establecer estilos basicos para las imagenes */
+   img {
+    max-width: 100%; /* hacer que las imagenes sean responsivas dentro de su contenedor */
+    height: auto;
+   } 
+
+   /* puedes agregar mas estilos segun tus necesidades */
